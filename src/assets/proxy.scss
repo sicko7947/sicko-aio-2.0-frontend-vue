@@ -1,0 +1,205 @@
+.proxy-wrapper {
+    padding: 1.25rem 1.25rem 1.25rem 0.625rem;
+
+    > .el-main {
+        background-color: #1f2346;
+        border: 1px solid #363c6d;
+        border-radius: 0.625rem;
+        color: #fff;
+        margin-left: 0;
+
+        .search-box {
+            height: 2.5rem;
+            overflow: hidden;
+
+            > i {
+                font-size: 1.25rem;
+                width: 1.25rem;
+                height: 1.25rem;
+                color: #fff;
+                margin-left: 1.25rem;
+                line-height: 2.5rem;
+                cursor: pointer;
+            }
+
+            > button {
+                margin-left: 1.25rem;
+                background: linear-gradient(90deg, #03c571, #4cc591);
+            }
+
+            .left {
+                float: left;
+            }
+
+            .right {
+                float: right;
+            }
+
+            .el-select {
+                width: 7.5rem;
+                height: 2.5rem;
+                line-height: 1;
+
+                input {
+                    background-color: #2b325e;
+                    border-radius: 0.375rem;
+                    padding-left: 0.625rem;
+                }
+            }
+        }
+
+        .list-box {
+            background-color: #2b325e;
+            margin-top: 1.25rem;
+            height: 46.625rem;
+            border-radius: 0.625rem;
+            color: #fff;
+            padding: 1.25rem;
+            padding-top: 0;
+
+            .list-header {
+                height: 3.25rem;
+                font-size: 0.875rem;
+                line-height: 3.25rem;
+            }
+
+            .list-item {
+                height: 3.75rem;
+                line-height: 3.75rem;
+                background-color: #1f2346;
+                border-radius: 0.625rem;
+                margin: 1px 0;
+                &:hover {
+                    background: #545a90;
+                }
+            }
+
+            .list-header,
+            .list-item {
+                display: flex;
+                padding: 0 0.625rem;
+
+                span {
+                    &.success {
+                        color: #03c571;
+                    }
+
+                    &.error {
+                        color: #ff3636;
+                    }
+
+                    i {
+                        cursor: pointer;
+                        font-size: 1.25rem;
+                    }
+
+                    i + i {
+                        margin-left: 1.25rem;
+                    }
+
+                    &:nth-child(1) {
+                        width: 12.5rem;
+                    }
+
+                    &:nth-child(2) {
+                        width: 8.25rem;
+                    }
+
+                    &:nth-child(3) {
+                        width: 14.375rem;
+                    }
+
+                    &:nth-child(4) {
+                        width: 13.75rem;
+                    }
+
+                    &:nth-child(5) {
+                        width: 7.5rem;
+                    }
+
+                    &:nth-child(6) {
+                        width: 7.75rem;
+                    }
+
+                    &:nth-child(7) {
+                        text-align: center;
+                        width: 4.125rem;
+                    }
+                }
+            }
+        }
+
+        .btn-box {
+            margin-top: 1.25rem;
+            height: 2.5rem;
+
+            .right {
+                float: right;
+            }
+
+            .left {
+                float: left;
+            }
+
+            button {
+                & + button {
+                    margin-left: 1.25rem;
+                }
+
+                &:nth-child(2) {
+                    background: linear-gradient(90deg, #03c571, #4cc591);
+                }
+
+                &:nth-child(4) {
+                    background: linear-gradient(90deg, #57bdff, #24d4ff);
+                }
+
+                &:nth-child(3) {
+                    background: linear-gradient(90deg, #f983b5, #f961a1);
+                }
+            }
+        }
+    }
+
+    .dialog-new-proxy-list {
+        .el-dialog {
+            height: 12.625rem;
+            width: 28.75rem;
+        }
+
+        .el-dialog__body {
+            height: 2.5rem;
+            padding-top: 0;
+            padding-bottom: 0;
+
+            .el-input {
+                margin-bottom: 1.25rem;
+            }
+        }
+
+        .el-dialog__footer {
+            margin-top: 1.875rem;
+        }
+    }
+
+    .dialog-new-proxy {
+        .el-dialog {
+            height: 36.125rem;
+            width: 30.625rem;
+        }
+
+        .el-dialog__body {
+            height: 26.625rem;
+            padding: 0 1.25rem;
+            overflow: hidden;
+
+            textarea {
+                height: 100%;
+                resize: none;
+                border: none;
+                background-color: #1f2346;
+                color: #fff;
+            }
+        }
+    }
+}
