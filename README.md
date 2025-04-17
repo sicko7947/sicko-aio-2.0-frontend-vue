@@ -1,4 +1,4 @@
-"# Sickoaio2.0-vue" 
+"# Sicko AIO 2.0 Client Frontend VUE" 
 
 
 ![image](https://github.com/user-attachments/assets/4d8cc903-05a8-47b2-9d65-36cccd7f366c)
